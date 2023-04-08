@@ -1,0 +1,21 @@
+1. We need to import react and react-dom using CDN(Content Delivery Network ) into project.
+2. Import it then go through following code 
+
+
+
+a. // const heading = React.createElement("h1", { id: "heading" }, "Hello World from React!");
+b. // console.log(heading);
+c. // const root = ReactDOM.createRoot(document.getElementById("root"));
+d. // console.log(root);
+ // This method is used to convert this h1 element into h1 tag and put it into DOM/webpage
+e. // root.render(heading);
+
+
+
+a. createElement is a method which allows us to create elements on DOM using imported react library. 
+b. createRoot method is used to create root element on document. 
+b1. we've mentioned    <div id="root"> in body tag where document.getElementById("root") will check root id div tag and 
+manipulate data using virtual dom 
+b2. root has render method once the virtual dom is initialzed render method is used to render that heading element to webpage.
+
+ 
